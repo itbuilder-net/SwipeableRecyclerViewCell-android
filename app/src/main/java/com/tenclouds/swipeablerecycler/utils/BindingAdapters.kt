@@ -1,7 +1,7 @@
 package com.tenclouds.swipeablerecycler.utils
 
-import android.databinding.BindingAdapter
-import android.support.annotation.DrawableRes
+import androidx.databinding.BindingAdapter
+import androidx.annotation.DrawableRes
 import android.widget.TextView
 import com.tenclouds.swipeablerecycler.R
 import de.hdodenhof.circleimageview.CircleImageView

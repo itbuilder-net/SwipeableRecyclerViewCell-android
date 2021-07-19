@@ -8,8 +8,8 @@ import android.graphics.Canvas
 import android.graphics.Paint
 import android.graphics.Path
 import android.os.Build
-import android.support.annotation.ColorInt
-import android.support.v4.graphics.ColorUtils
+import androidx.annotation.ColorInt
+import androidx.core.graphics.ColorUtils
 import android.util.DisplayMetrics
 import android.view.View
 import com.tenclouds.swipeablerecyclerviewcell.metaball.ConnectorHolder

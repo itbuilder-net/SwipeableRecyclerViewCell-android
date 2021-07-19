@@ -47,7 +47,7 @@
                 app:drawableSrc="@{item.avatar}"
                 tools:src="@drawable/avatar1" />
 
-            <android.support.constraint.ConstraintLayout
+            <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/vBg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                     app:workStatus="@{item.status}"
                     tools:text="&#8226; Work" />
 
-            </android.support.constraint.ConstraintLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </LinearLayout>
 

@@ -1,27 +1,37 @@
 package com.tenclouds.swipeablerecycler
 
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.LinearLayoutManager
+import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.tenclouds.swipeablerecycler.adapter.Message
 import com.tenclouds.swipeablerecycler.adapter.MessageAdapter
-import kotlinx.android.synthetic.main.activity_main.*
+import com.tenclouds.swipeablerecycler.databinding.ActivityMainBinding
+
 
 class MainActivity : AppCompatActivity() {
 
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
         configureRecyclerView()
+
+//        binding.rvItems.apply {
+//            adapter =  MessageAdapter(items).apply { setHasStableIds(true) }
+//            layoutManager = LinearLayoutManager(context)
+//        }
     }
 
     private fun configureRecyclerView() {
-        with(rvItems) {
+        binding.rvItems.apply {
             layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
             adapter = MessageAdapter(items).apply { setHasStableIds(true) }
         }
     }
+
 
     private val items: MutableList<Message> = arrayListOf(
             Message(

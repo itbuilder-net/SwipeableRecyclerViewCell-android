@@ -1,6 +1,6 @@
 package com.tenclouds.swipeablerecycler.adapter
 
-import android.support.annotation.DrawableRes
+import androidx.annotation.DrawableRes
 
 
 data class Message(

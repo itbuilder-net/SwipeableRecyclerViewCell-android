@@ -1,6 +1,6 @@
 package com.tenclouds.swipeablerecycler.adapter
 
-import android.support.v7.widget.RecyclerView
+import androidx.recyclerview.widget.RecyclerView
 import android.widget.Toast
 import com.tenclouds.swipeablerecycler.databinding.VhMessageBinding
 import com.tenclouds.swipeablerecyclerviewcell.metaball.RIGHT_VIEW_TO_DELETE

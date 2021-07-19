@@ -1,8 +1,8 @@
 package com.tenclouds.swipeablerecyclerviewcell.swipereveal
 
 import android.graphics.Rect
-import android.support.v4.view.ViewCompat
-import android.support.v4.widget.ViewDragHelper
+import androidx.core.view.ViewCompat
+import androidx.customview.widget.ViewDragHelper
 import android.view.View
 import com.tenclouds.swipeablerecyclerviewcell.swipereveal.interfaces.AnimatedRevealView
 import com.tenclouds.swipeablerecyclerviewcell.swipereveal.interfaces.OnSwipeListener
