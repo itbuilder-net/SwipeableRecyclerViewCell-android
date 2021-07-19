@@ -1,4 +1,5 @@
 # SwipeableRecyclerViewCell-android
+To help new android coders like myself with latest setup of development environment be able to see how this app works immediately.
 
 Update:</br>
 - kotlin 1.5.20
