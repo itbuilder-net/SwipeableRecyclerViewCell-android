@@ -19,10 +19,6 @@ class MainActivity : AppCompatActivity() {
 
         configureRecyclerView()
 
-//        binding.rvItems.apply {
-//            adapter =  MessageAdapter(items).apply { setHasStableIds(true) }
-//            layoutManager = LinearLayoutManager(context)
-//        }
     }
 
     private fun configureRecyclerView() {
