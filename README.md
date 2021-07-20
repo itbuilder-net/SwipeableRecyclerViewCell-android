@@ -1,5 +1,5 @@
 # SwipeableRecyclerViewCell-android
-To help new android coders like myself with a latest setup of development environment be able to see how this amazing app works immediately.
+Hope this will help new android coders like myself be able to run this amazing app from 10clouds immediately rather than spending hours Ducksgo-ing howtos in migrating and/or updating deprecated features.
 
 Update:</br>
 - kotlin 1.5.20
